@@ -27,12 +27,10 @@ public class Question5
      *     2
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
-     
     ArrayList<Integer> data = new ArrayList<>();
     Scanner in = new Scanner(System.in);
     System.out.print( "Enter a number: ");
     Integer num = in.nextInt();
-
     for(int i = 0; i<=num; i++)
     {
       System.out.print( "> ");
