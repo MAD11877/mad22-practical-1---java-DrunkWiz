@@ -29,11 +29,11 @@ public class Question5
      */
     ArrayList<Integer> data = new ArrayList<>();
     Scanner in = new Scanner(System.in);
-    System.out.print( "Enter a number: ");
+    //System.out.print( "Enter a number: ");
     Integer num = in.nextInt();
     for(int i = 0; i<=num; i++)
     {
-      System.out.print( "> ");
+      //System.out.print( "> ");
       Integer num1 = in.nextInt();
       data.add(num1);
       }
