@@ -31,7 +31,7 @@ public class Question5
     Scanner in = new Scanner(System.in);
     //System.out.print( "Enter a number: ");
     Integer num = in.nextInt();
-    for(int i = 0; i<=num; i++)
+    for(int i = 0; i<num; i++)
     {
       //System.out.print( "> ");
       Integer num1 = in.nextInt();
