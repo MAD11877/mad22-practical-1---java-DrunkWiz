@@ -11,7 +11,7 @@ public class Question3
      */
     Scanner in = new Scanner(System.in);
     //System.out.println( "Enter a number");
-    double int = in.nextInterger();
+    int num = in.nextInterger();
     System.out.println(num*num);
   }
 }
