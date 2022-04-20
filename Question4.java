@@ -17,7 +17,7 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
     Scanner in = new Scanner(System.in);
-    System.out.println( "Enter a number");
+    //System.out.println( "Enter a number");
     double num = in.nextDouble();
     for(double i = (num -1); i>-1; i--)
     {
